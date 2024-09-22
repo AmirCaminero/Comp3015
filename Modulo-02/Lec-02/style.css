@@ -1,0 +1,21 @@
+nav {
+    border-bottom: 1px solid lightgrey;
+}
+nav ul {
+    display: flex;
+    flex-direction: flex;
+}
+nav ul li {
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: 20px;
+    list-style: none;
+    padding:10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    background: light blue;
+}

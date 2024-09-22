@@ -13,13 +13,24 @@
         <p>Termino Importantes</p>
         <ul>
             <li>SEO - Search Engine Optiminization</li>
-            <li>meta - Etiqueta que anade informacion para los search engines</li>
-            <li>alt - atributo que anade accesibilidad a una imagen </li>
+            <li>meta - Etiqueta que a&ntilde;ade informacion para los search engines</li>
+            <li>alt - atributo que a&ntilde;ade accesibilidad a una imagen </li>
         </ul>
         <figure>
-            <img src="InterLogo" alt="Logo o sello de la universidad Interamericana"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Escudo_INTER.svg" alt="Logo o sello de la universidad Interamericana"/>
             <figcaption>Logo de la universidad Interamericana</figcaption>
         </figure>
-    
+
+        <a href="https://www.arecibo.inter.edu/">Entrar al sitio web</a>
+
+        <form action="/submit" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
 </body>
 </html>
